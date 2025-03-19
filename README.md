@@ -61,12 +61,4 @@ Write an SQL script to change the database so that an individual order can conta
 
 This part of the workshop should take the form of a discussion. See [Choosing a database](./choosing-a-database.md) for more details.
 
-## (Optional) Part 4 - Non-Relational Databases
 
-The current globex database is the backend of a legacy desktop application. Orders have to be manually added by employees. Customers can order online, but this just generates emails that back-office staff enter into the system.
-
-Globex would like to build a system that lets users order online and directly processes orders into the backend system. However, they want a buffer between the website and their database.
-
-They want to use [Kafka](https://kafka.apache.org/) to accept orders from the website and hold them until a backend process has loaded them into the database.
-
-Add a Docker container running **Kafka** to the database project. You might find adding **docker-compose** helpful. Workout how to submit orders to the Kafka instance and write a script in a language of your choice to process these orders from Kafka into the existing data.
