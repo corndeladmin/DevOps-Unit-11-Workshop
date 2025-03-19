@@ -35,12 +35,12 @@ Work through your issues in priority order and come up with a plan to fix them.
 
 ### 2.3: (Optional) Normalise the database
 
-[Database normalisation](https://en.wikipedia.org/wiki/Database_normalization) is an important topic in relational databases. While this is beyond the core scope of a _DevOps_ course it is a useful topic to be aware of.
+[Database normalisation](https://en.wikipedia.org/wiki/Database_normalization) is an important topic in relational databases. While this is beyond the core scope of a _DevOps_ course it is a useful topic to be aware of. There are a huge number of normal forms but the first three (1NF, 2NF, 3NF) are by far the most well know.
 
 Question 1: Why does the database satisfy the first normal form?
 
 Question 2: Does the database satisfy the second normal form?
-* For simplicity here assume the database tables have many more entries than they currently do, i.e. millions (to avoid there being any "accidental" candidate keys)
+* For simplicity here assume the database tables have many more entries than they currently do, i.e. millions (to avoid there being any "accidental" dependencies and candidate keys)
 
 Question 3: Why doesn't the Employee table satisfy the third normal form?
 
