@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.202.3/containers/python-3
+{
+	"name": "SQL Database",
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"mhutchie.git-graph",
+		"mtxr.sqltools",
+		"mtxr.sqltools-driver-pg"
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [5000, 7071],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "pip3 install --user -r requirements.txt",
+
+	"features": {
+		"git": "os-provided"
+	}
+}
