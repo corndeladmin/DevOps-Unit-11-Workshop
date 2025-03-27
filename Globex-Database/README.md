@@ -26,7 +26,7 @@ CONTAINER ID   IMAGE       COMMAND                  CREATED         STATUS      
 
 If it isn't, run `docker start module-10-container` to start it. If you stop the container for any reason (e.g. restarting your machine) you'll need to run this command.
 
-Connect to the database with the following details:  
+You can connect to the database with the following details:  
 ```
 Server name: `localhost`  
 Port Number: 5432
@@ -34,4 +34,7 @@ Database name: `globex`
 Username: `postgres`  
 Password: `Password123!`
 ```
-If you are using SQLTools you can setup a connection by clicking the SQLTools icon on the Activity bar in VSCode and selecting "Add New Connection" and choosing "PostgreSQL".
+A working connection should already be setup for you. You can access the connection by clicking the SQLTools icon on the Activity bar in VSCode:
+![SQLTools Connection](../images/SQLToolsConnection.jpg)
+
+You can also create a connection by selecting "Add New Connection" and choosing "PostgreSQL".
