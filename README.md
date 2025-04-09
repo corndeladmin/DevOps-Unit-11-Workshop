@@ -57,8 +57,8 @@ One limitation of the current system is that each order can only contain a singl
 Write an SQL script to change the database so that an individual order can contain multiple products. Your script should migrate the existing data so that previous orders aren't lost.
 
 
-## Part 3 - Choosing Databases
+## Part 3 - Solutions Design
 
-This part of the workshop should take the form of a discussion. See [Choosing a database](./choosing-a-database.md) for more details.
+This part of the workshop should take the form of a discussion. See [Solutions Design](./solutions-design.md) for more details.
 
 
