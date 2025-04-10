@@ -63,7 +63,7 @@ However relational databases can struggle in high availability (HA) scenarios. I
 
 For each of the following scenarios, design an appropriate data storage solution for the application. You should be prepared to justify your choices in each case, including any assumptions you've made.
 
-**We recommend creating a small architecture diagram for each scenario using a collaborative tool like [Miro](https://miro.com/) or https://app.diagrams.net/**.
+For the more complex examples you might want to create a small architecture diagram using a collaborative tool like [Miro](https://miro.com/) or https://app.diagrams.net/.
 
 1. A system for processing payments that requires strong guarantees around data integrity, and that only the most up-to-date balance will be reported for a user.
 2. An inventory management application for a large warehouse. Workers use handheld scanners to check inventory into and out of the warehouse.
