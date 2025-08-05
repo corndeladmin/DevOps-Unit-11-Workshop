@@ -4,8 +4,9 @@ This repository is for learners on Corndel's DevOps apprenticeship.
 
 ## Pre-requisites
 
-You will need to get the sample Globex database running on your machine.
-Clone this repository and follow the [set-up instructions](./Globex-Database/README.md).
+You will need to get the sample Globex database running in your browser.
+
+Open this repo **in GitHub Codespaces** and follow the [set-up instructions](./Globex-Database/README.md).
 
 ## Part 1 - Messing Around With SQL
 
