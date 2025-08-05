@@ -2,8 +2,6 @@
 
 Globex is an export company that supplies widgets to consumers around the world. Their **DBA** (database administrator) recently left without warning and they need some help. There are a series of questions below that need answering.
 
-If you're unfamiliar with SQL the questions loosely follow the structure of the Module 9 additional reading.
-
 (We have provided the answers to all of the questions below. This will let you check your working as you go.)
 
 Note: You should have already followed the [set-up instructions](./Globex-Database/README.md). If not, do that now.
