@@ -55,7 +55,7 @@ The value of an order can be calculated by multiplying the `Amount` of product o
 > You may want to make use of aggregate functions like `MAX` and `SUM` in the below.
 
 1.  What was the value of order 115?
-    <details><summary>Answer</summary>470866.56</details>
+    <details><summary>Answer</summary>46527501.9600</details>
 
 2.  What is the value of the highest value order in the system?
     <details><summary>Answer</summary>960151.08</details>
