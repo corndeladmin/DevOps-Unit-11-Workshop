@@ -58,56 +58,56 @@ The value of an order can be calculated by multiplying the `Amount` of product o
     <details><summary>Answer</summary>46527501.9600</details>
 
 2.  What is the value of the highest value order in the system?
-    <details><summary>Answer</summary>960151.08</details>
+    <details><summary>Answer</summary>96975259.08</details>
 
 3.  What was the value of the most expensive order placed in 2019?
-    <details><summary>Answer</summary>903860.40</details>
+    <details><summary>Answer</summary>90005467.20</details>
     <details><summary>Hint</summary>Try using the `DATE_PART` function.</details>
 
 4.  What was the value of all orders placed in 2019?
-    <details><summary>Answer</summary>91770383.17</details>
+    <details><summary>Answer</summary>8377327441.40</details>
 
 5.  What was the value of all orders placed in 2019 excluding the following: 'Voltaren','Loud Child', 'topiramate', 'Omeprazole'?
-    <details><summary>Answer</summary>84689146.20</details>
+    <details><summary>Answer</summary>7572529633.86</details>
 
 6.  (Optional) The finance director needs a month-by-month report of order values for 2020. Please write a query to produce total order values grouped by month name.
     <details>
     <summary>Answer</summary>
 
-    | Month    | Value       |
-    | -------- | ----------- |
-    |January   | 10021197.33 |
-    |February  | 5451368.04  |
-    |March     | 8393388.67  |
-    |April     | 6455989.74  |
-    |May       | 10138281.22 |
-    |June      | 8845170.26  |
-    |July      | 7174546.57  |
-    |August    | 7310235.65  |
-    |September | 8305703.18  |
-    |October   | 8597017.86  |
-    |November  | 8244004.19  |
-    |December  | 6152906.05  |
+    | Month    | Value         |
+    | -------- | ------------- |
+    |January   | 1152297134.73 |
+    |February  | 582972524.34  |
+    |March     | 740102771.90  |
+    |April     | 893570013.36  |
+    |May       | 809371282.03  |
+    |June      | 859491782.88  |
+    |July      | 744856730.74  |
+    |August    | 772992925.83  |
+    |September | 998998370.23  |
+    |October   | 1119207081.57 |
+    |November  | 832130852.96  |
+    |December  | 695348529.80  |
     </details>
     <details><summary>Hint</summary>You'll need the `GROUP BY` statement.</details>
 
 7.  (Optional) Please adapt the above report so it prints the month names in Spanish.
     <details><summary>Answer</summary>
 
-    | Month      | Value       |
-    | ---------- | ----------- |
-    | enero      | 10021197.33 |
-    | febrero    | 5451368.04  |
-    | marzo      | 8393388.67  |
-    | abril      | 6455989.74  |
-    | mayo       | 10138281.22 |
-    | junio      | 8845170.26  |
-    | julio      | 7174546.57  |
-    | agosto     | 7310235.65  |
-    | septiembre | 8305703.18  |
-    | octubre    | 8597017.86  |
-    | noviembre  | 8244004.19  |
-    | diciembre  | 6152906.05  |
+    | Month      | Value         |
+    | ---------- | ------------- |
+    | enero      | 1152297134.73 |
+    | febrero    | 582972524.34  |
+    | marzo      | 740102771.90  |
+    | abril      | 893570013.36  | 
+    | mayo       | 809371282.03  |
+    | junio      | 859491782.88  |
+    | julio      | 744856730.74  |
+    | agosto     | 772992925.83  |
+    | septiembre | 998998370.23  |
+    | octubre    | 1119207081.57 |
+    | noviembre  | 832130852.96  |
+    | diciembre  | 695348529.80  |
     </details>
     <details>
     <summary>Hint</summary>
@@ -120,44 +120,43 @@ The value of an order can be calculated by multiplying the `Amount` of product o
     <details><summary>Answer</summary>
 
     | Year | Month     | Value         |
-    |------|-----------|---------------|
-    | 2018 | January   | 5656943.14  |
-    | 2018 | February  | 10756477.55 |
-    | 2018 | March     | 5156643.61  |
-    | 2018 | April     | 8158733.57  |
-    | 2018 | May       | 6909454.38  |
-    | 2018 | June      | 8618200.66  |
-    | 2018 | July      | 4973409.32  |
-    | 2018 | August    | 7338968.02  |
-    | 2018 | September | 9850131.20  |
-    | 2018 | October   | 7754044.63  |
-    | 2018 | November  | 7204268.44  |
-    | 2018 | December  | 9031586.17  |
-    | 2019 | January   | 7140463.17  |
-    | 2019 | February  | 6127454.68  |
-    | 2019 | March     | 8720289.82  |
-    | 2019 | April     | 8776308.77  |
-    | 2019 | May       | 8059621.26  |
-    | 2019 | June      | 8271865.02  |
-    | 2019 | July      | 7485176.76  |
-    | 2019 | August    | 8554835.59  |
-    | 2019 | September | 5162879.62  |
-    | 2019 | October   | 8480658.03  |
-    | 2019 | November  | 5960023.00  |
-    | 2019 | December  | 9030807.45  |
-    | 2020 | January   | 10021197.33 |
-    | 2020 | February  | 5451368.04  |
-    | 2020 | March     | 8393388.67  |
-    | 2020 | April     | 6455989.74  |
-    | 2020 | May       | 10138281.22 |
-    | 2020 | June      | 8845170.26  |
-    | 2020 | July      | 7174546.57  |
-    | 2020 | August    | 7310235.65  |
-    | 2020 | September | 8305703.18  |
-    | 2020 | October   | 8597017.86  |
-    | 2020 | November  | 8244004.19  |
-    | 2020 | December  | 6152906.05  |
-    </details>
+    | ---- | --------- | ------------- |
+    | 2018 | January   | 584244206.56  |
+    | 2018 | February  | 1110033926.92 |
+    | 2018 | March     | 465596579.36  |
+    | 2018 | April     | 769189197.09  |
+    | 2018 | May       | 678002564.93  |
+    | 2018 | June      | 973822293.04  |
+    | 2018 | July      | 603780358.26  |
+    | 2018 | August    | 1265736320.01 |
+    | 2018 | September | 1262211581.12 |
+    | 2018 | October   | 707242105.00  |
+    | 2018 | November  | 674421684.92  |
+    | 2018 | December  | 830786648.42  |
+    | 2019 | January   | 570807232.36  |
+    | 2019 | February  | 516987419.96  |
+    | 2019 | March     | 758934136.71  |
+    | 2019 | April     | 852358982.35  |
+    | 2019 | May       | 638167195.96  |
+    | 2019 | June      | 878393983.87  |
+    | 2019 | July      | 708166654.15  |
+    | 2019 | August    | 728331790.71  |
+    | 2019 | September | 371493568.28  |
+    | 2019 | October   | 918492600.71  |
+    | 2019 | November  | 613890777.94  |
+    | 2019 | December  | 821303098.40  |
+    | 2020 | January   | 1152297134.73 |
+    | 2020 | February  | 582972524.34  |
+    | 2020 | March     | 740102771.90  |
+    | 2020 | April     | 893570013.36  |
+    | 2020 | May       | 809371282.03  |
+    | 2020 | June      | 859491782.88  |
+    | 2020 | July      | 744856730.74  |
+    | 2020 | August    | 812372070.42  |
+    | 2020 | September | 824989408.69  |
+    | 2020 | October   | 891142486.67  |
+    | 2020 | November  | 867317295.20  |
+    | 2020 | December  | 676457857.58  |
     <details><summary>Hint</summary>You can pass multiple values to `ORDER BY` and `GROUP BY` commands.</details>
 
 ## Optional Extras
